@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap'); */
+
+.hero > .container-fl{
+    margin-top: 165px;
+}
+
+.hero__main-top{
+    /* margin-top: 100px; */
+    text-align: center;
+    overflow: hidden;
+}
+
+.hero__main-copy{
+    margin-bottom: 80px;
+}
+
+.banner-head{
+    position: relative;
+}
+.banner-head > .heading{
+    font-family: 'Allura', cursive;
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Satisfy', cursive; */
+    font-size: 80px;
+}
+.banner-head > p{
+    position: absolute;
+    bottom: -15%;
+    right: 35%;
+}
+
+.hero__main-copy > h1{
+    font-size: 55px;
+    font-weight: 400;
+}
+.hero__main-copy > p{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hero-btn{
+    width: 140px;
+    padding: 10px;
+    font-size: 15px;
+    font-size: 700;
+    background: linear-gradient(0deg, #25b7fb, #c5f857);
+    border-radius: 40px;
+    border: none;
+    position: relative;
+}
+.hero-btn::after{
+    content: 'SHOP NOW';
+    width: 132px;
+    height: 34.5px;
+    padding: 6px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    background: var(--white);
+    border-radius: 40px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+
+.hero__main-img{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.hero__main-img img{
+    width: 700px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.hero__notes{
+    margin-top: 300px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    position: relative;
+}
+.hero__notes > .note:nth-child(1){
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -72px;
+    top: -30%;
+}
+
+.hero__notes > .note:nth-child(2) > .copy-black > .copy-gray > i{
+    font-size: 12px;
+}
+
+.hero__notes > .note:nth-child(1) > p,
+.hero__notes > .note:nth-child(2) > p{
+    position: relative;
+}
+.hero__notes > .note:nth-child(1) > p::after{
+    content: ' ';
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    background: var(--black-300);
+    top: 10px;
+    left: -50%;
+}
+.hero__notes > .note:nth-child(2) > p::after{
+    content: ' ';
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    background: var(--black-300);
+    top: 11px;
+    right: 90px;
+}
+
+.cta-icons ul > li{
+    margin: 10px 0;
+}
+.cta-icons ul > li > a > i{
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    padding: 8px;
+    font-size: 14px;
+    color: var(--gray-100);
+    border: 1px solid var(--gray-100);
+    border-radius: 50%;
+}
+.cta-icons{
+    margin-top: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+}
+.cta-icons > .note:nth-child(1){
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    right: 0;
+    top: -160px;
+}
+.cta-icons > .note:nth-child(1)::after{
+    content: ' ';
+    position: absolute;
+    width: 1px;
+    height: 60px;
+    background: var(--black-300);
+    bottom: -53px;
+    left: 75%;
+}
+.cta-icons > .note:nth-child(2){
+    margin-top: 310px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+.cta-icons > .note:nth-child(2)::after{
+    content: ' ';
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    background: var(--black-300);
+    top: 25px;
+    left: -50%;
+}
+.cta-icons > .note:nth-child(2) > .copy-black{
+    margin-top: 10px;
+    font-weight: 600;
+    display: flex;
+    align-items: flex-start;
+}
+.cta-icons > .note:nth-child(2) > .copy-black > .copy-green{
+    margin: -5px 5px 0 0;
+    font-size: 26px;
+}
+.cta-icons > .note:nth-child(2) > .slide-ctas{
+    margin-left: 25px;
+}
+.slide-ctas > i{
+    margin: 0;
+    padding: 8px 18px;
+    font-size: 10px;
+    color: var(--gray-100);
+    background: var(--white);
+    border: 0;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    overflow: hidden;
+    box-shadow: 3px 3px 50px 1px #555555a0;
+}
+.slide-ctas > i:nth-child(1){
+    margin-right: -5px;
+    border-right: 1px solid #11111140;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}

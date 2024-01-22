@@ -1,0 +1,61 @@
+
+nav{
+    padding: 40px 0 30px;
+    display: flex;
+}
+
+.hearer-logo > div > a{
+    color: var(--black-100);
+    font-size: 10px;
+    display: flex;
+    transform: translate(-16px);
+    text-decoration: none;
+}
+.hearer-logo h4 span{
+    content: url(../../img/logo-2.jpg);
+    width: 16px;
+    height: 16px;
+    transform: translate(70px, -20px);
+}
+.hearer-logo p{
+    margin: 10px 0 0 14px;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+}
+
+.menus{
+    justify-content: flex-end;
+}
+.menus > ul{
+    margin: 0 32px;
+    justify-content: flex-end;
+}
+.menus, ul.menu:nth-child(3){
+    margin-right: 2px;
+}
+.menus, .menus > ul, .menus > ul > li{
+    padding: 0px;
+    display: flex;
+}
+.menus > ul > li > a{
+    text-decoration: none;
+}
+.menus > ul.links > li{
+    margin: 0 18px;
+    position: relative;
+}
+.menus > ul.links > li:hover:before{
+    content: ' ';
+    width: 6px;
+    height: 6px;
+    background: var(--green);
+    border-radius: 4px;
+    transition: 1s;
+    position: absolute;
+    bottom: -8px;
+    left: 44%;
+}
+.menus > ul > li > a > i{
+    font-size: 18px;
+}

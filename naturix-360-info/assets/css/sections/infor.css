@@ -1,0 +1,112 @@
+.infor{
+    background: var(--white);
+}
+
+.infor__container{
+    padding: 100px 0 200px;
+}
+
+.infor__container > .row{
+    padding: 180px 0 0px;
+}
+
+.cordif{
+    border: 2px solid #eeeeee80;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.cordif:hover{
+    border: 2px solid var(--green-line);
+    box-shadow: 0 0 40px 0px #bbbbbb80; 
+    transform: scale(1.01) translatey(-6px);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.cordif-3{
+    border: 2px solid var(--green-line);
+    box-shadow: 0 0 40px 0px #bbbbbb80;
+}
+
+.cordif > .cordif__block{
+    padding: 30px 30px 10px 30px;
+    text-align: center;
+}
+
+.cordif > .cordif__block > .cordif-img > i{
+    margin: 25px 0 65px;
+    /* padding: 46px 16px; */
+    padding: 38px 18px;
+    color: var(--white);
+    font-size: 80px;
+    background-color: #0080004d;
+    line-height: 20px;
+    border: 2px solid var(--white);
+    border-radius: 100px;
+    box-shadow: 0 0 20px 15px #0080005d;
+}
+
+.cordif-1 > .cordif__block > .cordif-img > i{
+    /* padding: 46px 16px; */
+    background-color: #eb97ac6d;
+    box-shadow: 0 0 20px 15px #eb97ac7d;
+}
+
+.cordif-3 > .cordif__block > .cordif-img > i{
+    /* padding: 46px 16px; */
+    background-color: #faab174d;
+    box-shadow: 0 0 20px 15px #faab175d;
+}
+
+.cordif-4 > .cordif__block > .cordif-img > i{
+    /* padding: 46px 16px; */
+    background-color: #a0cdd6c0;
+    box-shadow: 0 0 20px 15px #a0cdd6b0;
+}
+
+.cordif-5 > .cordif__block > .cordif-img > i{
+    /* padding: 46px 16px; */
+    background-color: #a0d6c8e0;
+    box-shadow: 0 0 20px 15px #a0d6c8d0;
+}
+
+.cordif-6 > .cordif__block > .cordif-img > i{
+    /* padding: 46px 16px; */
+    background-color: #e9bcc46d;
+    box-shadow: 0 0 20px 15px #e9bcc47d;
+}
+
+.cordif > .cordif__block > hr{
+    height: 2px;
+    margin: 0 45px 40px;
+    color : #bbb;
+}
+
+.cordif-head > .copy-black{
+    margin-bottom: 6px;
+}
+
+.row-1 > .col-6 > .infor__content{
+    margin: 0px 50px 0 100px;
+}
+
+.row-2 > .col-6 > .infor__content{
+    margin: 0px 150px 0 0;
+}
+
+.infor__heading > .heading > .head{
+    margin: 30px 0 40px;
+}
+
+.infor__heading > .heading > p:nth-child(2)::before{
+    position: unset;
+}
+.infor__heading > .heading > p:nth-child(2)::after{
+    position: unset;
+}
+
+.infor__content > .infor__copy > p.copy-black{
+    margin: 30px 0 0;
+    line-height: 28px;
+}

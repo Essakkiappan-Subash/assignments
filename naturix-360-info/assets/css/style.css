@@ -1,0 +1,127 @@
+
+/* other css file imports */
+@import url(../css/sections/header.css);
+@import url(../css/sections/hero.css);
+@import url(../css/sections/category.css);
+@import url(../css/sections/about.css);
+@import url(../css/sections/infor.css);
+
+:root{
+    --white: #fff;
+    --black-300: #333333;
+    --gray-100: #888888;
+    --green: #88a81f;
+    --green-line: #89ab3d;
+
+    --bg-color: #faf6f3;
+
+    --btn-color: linear-gradient(to right,#88a81f, #89ab3d);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: linear-gradient();
+}
+
+.container-fl{
+    max-width: 1800px;
+    margin: auto;
+}
+
+.copy-black,
+.menus > ul > li > a{
+    font-size: 14px;
+    color: var(--black-300);
+}
+
+.copy-green{
+    font-size: 14px;
+    color: var(--green);
+}
+
+.copy-gray{
+    font-size: 14px;
+    /* color: var(--bs-gray-500); */
+    /* color: var(--bs-gray-600); */
+    color: var(--gray-100);
+}
+
+ul{
+    list-style: none;
+}
+
+.heading > p.head{
+    margin-bottom: 6px;
+    color: #666;
+    font-size: 35px;
+}
+
+.heading > p.head > b{
+    color: var(--black-300);
+    font-size: 35px;
+}
+
+.heading > p.head-info{
+    color: var(--black-300);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    position: relative;
+}
+
+.heading > p:nth-child(2)::before{
+    content: '';
+    width: 45px;
+    height: 1px;
+    background: var(--gray-100);
+    position: absolute;
+    top: 8px;
+    left: 32px;
+}
+.heading > p:nth-child(2)::after{
+    content: '';
+    width: 45px;
+    height: 1px;
+    background: var(--gray-100);
+    position: absolute;
+    top: 8px;
+    right: 36px;
+}
+
+/* .heading > p:nth-child(1){
+    margin-bottom: 6px;
+    color: #666;
+    font-size: 35px;
+}
+
+.heading > p:nth-child(1) > b{
+    color: var(--black-300);
+    font-size: 35px;
+}
+
+.heading > p:nth-child(2){
+    color: var(--black-300);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+} */
+
+
+.banner__img{
+    /* width: 100%; */
+    height: 100vh;
+    background-image: linear-gradient(#ffffff66, #ffffff66), url(../img/banner-bg.jpg);
+    background-size: cover;
+    background-position-y: -10vh;
+}
+
+
+/* i.bi{
+    padding: 10px;
+    font-size: 16px;
+    color: #000;
+    background: #555;
+} */
