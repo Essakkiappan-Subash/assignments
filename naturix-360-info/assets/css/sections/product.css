@@ -1,0 +1,105 @@
+.product__container{
+    /* margin-bottom: 100px; */
+    padding: 80px 0;
+    text-align: center;
+    overflow: hidden;   
+}
+
+.product__text > .heading{
+    width: max-content;
+    margin: 0 auto 35px;
+}
+
+.product__text > .heading > p.head{
+    padding: 0px 30px 5px 30px;
+    line-height: 50px;
+    border: 1px solid var(--gray-100);
+    border-radius: 50px;
+    position: relative;
+    /* overflow: hidden; */
+}
+.product__text > .heading > p.head::before{
+    content: '';
+    width: 110%;
+    height: 1px;
+    background: var(--gray-100);
+    position: absolute;
+    top: 50%;
+    left: -110%;
+    overflow: hidden;
+}
+.product__text > .heading > p.head::after{
+    content: '';
+    width: 110%;
+    height: 1px;
+    background: var(--gray-100);
+    position: absolute;
+    top:50%;
+    right: -110%;
+}
+
+.product__text > .heading > p.head-info::before{
+display: none;
+}
+.product__text > .heading > p.head-info::after{
+display: none;
+}
+
+.product__btns{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product__btn{
+    /* width: 180px;
+    height: 45px; */
+    padding: 6px 20px;
+    text-align: center;
+    border: 1px solid var(--gray-100);
+    border-radius: 30px;
+    transition: ease all .3s;
+}
+
+.product__btn:hover, 
+.product__btn.active{
+    padding: 6px 22px;
+    color: var(--white);
+    background: var(--btn-color);
+    border: 0;
+    box-shadow: -3px 8px 30px 0px #aaaaaaaa;
+    transition: ease all .3s;
+}
+
+.product__cards{
+    padding: 40px 0;
+}
+
+.product__cards > .row > div{
+    max-width: fit-content;
+    padding-bottom: 50px;
+}
+
+
+.product .card__indicater > .indicater__line{
+    width: 330px;
+    height: 6px;
+    background: #eee;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.product .card__indicater > .indicater__line > span{
+    content: '';
+    width: 55px;
+    height: 6px;
+    background: var(--green-line);
+    position: absolute;
+    transform: translateX(-119px);
+}
+
+.cord-copy > p.price > span.copy-gray{
+    text-decoration: line-through;
+}

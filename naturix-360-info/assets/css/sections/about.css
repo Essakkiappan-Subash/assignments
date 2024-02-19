@@ -19,6 +19,10 @@
     margin: 0 auto 35px;
 }
 
+.about__text > .copy-black{
+    line-height: 28px;
+}
+
 .about__info .info-1,
 .about__info .info-4{
     transform: translateY(110px);
@@ -44,6 +48,10 @@
     border: 2px solid var(--white);
     border-radius: 100px;
     box-shadow: 0 0 20px 15px #0080005d;
+}
+.about__info .info:hover > .top.info-bk > i{
+    transform: rotateY(360deg);
+    transition: .8s;
 }
 
 .about__info .info-2 > .top.info-bk > i{

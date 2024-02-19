@@ -3,7 +3,7 @@
 }
 
 .infor__container{
-    padding: 100px 0 200px;
+    padding: 100px 0 50px;
 }
 
 .infor__container > .row{
@@ -36,21 +36,34 @@
 
 .cordif > .cordif__block > .cordif-img > i{
     margin: 25px 0 65px;
-    /* padding: 46px 16px; */
     padding: 38px 18px;
+    /* padding: 38px 18px; */
     color: var(--white);
-    font-size: 80px;
+    font-size: 60px;
     background-color: #0080004d;
     line-height: 20px;
     border: 2px solid var(--white);
     border-radius: 100px;
     box-shadow: 0 0 20px 15px #0080005d;
+    opacity: .6;
+    transition: .4s;
+}
+.cordif:hover > .cordif__block > .cordif-img > i{
+    transform: rotateX(360deg);
+    opacity: .9;
+    transition: .4s;
 }
 
 .cordif-1 > .cordif__block > .cordif-img > i{
-    /* padding: 46px 16px; */
+    padding: 38px 18px;
+    font-size: 80px;
     background-color: #eb97ac6d;
     box-shadow: 0 0 20px 15px #eb97ac7d;
+}
+
+.cordif-2 > .cordif__block > .cordif-img > i{
+    /* padding: 38px 14px; */
+    font-size: 60px;
 }
 
 .cordif-3 > .cordif__block > .cordif-img > i{
@@ -99,10 +112,10 @@
     margin: 30px 0 40px;
 }
 
-.infor__heading > .heading > p:nth-child(2)::before{
+.infor__heading > .heading > p.head-info::before{
     position: unset;
 }
-.infor__heading > .heading > p:nth-child(2)::after{
+.infor__heading > .heading > p.head-info::after{
     position: unset;
 }
 
