@@ -5,6 +5,9 @@
 @import url(../css/sections/category.css);
 @import url(../css/sections/about.css);
 @import url(../css/sections/infor.css);
+@import url(../css/sections/product.css);
+@import url(../css/sections/offer.css);
+@import url(../css/sections/shop.css);
 
 :root{
     --white: #fff;
@@ -72,7 +75,7 @@ ul{
     position: relative;
 }
 
-.heading > p:nth-child(2)::before{
+.heading > p.head-info::before{
     content: '';
     width: 45px;
     height: 1px;
@@ -81,7 +84,7 @@ ul{
     top: 8px;
     left: 32px;
 }
-.heading > p:nth-child(2)::after{
+.heading > p.head-info::after{
     content: '';
     width: 45px;
     height: 1px;
