@@ -220,6 +220,9 @@
     color: #ddddddd0;
     background: var(--white);
 }
+.card-links > ul > li > a > i:hover{
+    color: #ccc;
+}
 
 .card-img{
     width: 250px;
@@ -264,14 +267,18 @@
     line-height: 20px;
 }
 
-.cord-copy > p > span{
+.cord-copy > p.p_name > span{
     font-size: 20px;
     font-weight: bold;
+    line-height: 30px;
 }
 
+.cord-copy > p.price > span,
 .cord-copy > span{
+    margin: 0 2px;
     font-weight: 700;
 }
+
 
 
 .card__indicater{
